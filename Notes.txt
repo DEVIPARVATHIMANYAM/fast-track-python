@@ -1,0 +1,12 @@
+1.) What makes NumPy.shape() different      from NumPy.size()?
+Ans:-NumPy.shape() is used to get complete structural shape of our 2D array 
+Example:-(3,4)
+NumPy.size() will give us how many elements are present in total.
+2.)In NumPy describe the idea of broadcasting.?
+Ans:-The term broadcasting refers to the ability of NumPy to treat arrays of different shapes during arthimetic operations.Arithmetic operations on arrays are usually done on corresponding elements. If two arrays are exactly the same shape,then these operations are smoothly performed.
+3.)What makes python better than other libraries for numerical computation.?
+Ans:-Numerical libraries are libraries of numerical analysis functionality implemented in standard programming languages like C,Java,C#.Python libraries are used to create applications and models in a variety of fields for instance machine learning,data science,data visualization, image and data manipulation and many more.
+4.)How does NumPy deal with files.?
+Ans:-NumPy introduce a simple file format for Ne array objects. This .npy file stores data,shape,dtype and other information required to reconstruct the ndarray in a disk file such that the array is correctly retrieved even if the file is on another machine with different architecture.
+5.)Mention the importance of NumPy.empty().?
+Ans:-The NumPy.empty() function is used to create an array of qvien shapes and types without initializing values.To work with arrays,python provides a npy empty array function.It is used to create an empty array as per user condition means given data type and shape of the array without initialising values.
